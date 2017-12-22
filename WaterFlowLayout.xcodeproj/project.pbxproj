@@ -13,6 +13,9 @@
 		20702E461FECEF5200A5BB6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20702E451FECEF5200A5BB6A /* Assets.xcassets */; };
 		20702E491FECEF5200A5BB6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20702E471FECEF5200A5BB6A /* LaunchScreen.storyboard */; };
 		20702E4C1FECEF5200A5BB6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20702E4B1FECEF5200A5BB6A /* main.m */; };
+		20702E541FECF0B100A5BB6A /* FlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 20702E531FECF0B100A5BB6A /* FlowLayout.m */; };
+		20702E571FECFB4A00A5BB6A /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20702E561FECFB4A00A5BB6A /* HeaderView.m */; };
+		20702E5A1FECFB6D00A5BB6A /* FooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20702E591FECFB6D00A5BB6A /* FooterView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		20702E481FECEF5200A5BB6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20702E4A1FECEF5200A5BB6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20702E4B1FECEF5200A5BB6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		20702E521FECF0B100A5BB6A /* FlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlowLayout.h; sourceTree = "<group>"; };
+		20702E531FECF0B100A5BB6A /* FlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlowLayout.m; sourceTree = "<group>"; };
+		20702E551FECFB4A00A5BB6A /* HeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeaderView.h; sourceTree = "<group>"; };
+		20702E561FECFB4A00A5BB6A /* HeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeaderView.m; sourceTree = "<group>"; };
+		20702E581FECFB6D00A5BB6A /* FooterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FooterView.h; sourceTree = "<group>"; };
+		20702E591FECFB6D00A5BB6A /* FooterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FooterView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +71,10 @@
 				20702E3D1FECEF5200A5BB6A /* AppDelegate.m */,
 				20702E3F1FECEF5200A5BB6A /* ViewController.h */,
 				20702E401FECEF5200A5BB6A /* ViewController.m */,
+				20702E521FECF0B100A5BB6A /* FlowLayout.h */,
+				20702E531FECF0B100A5BB6A /* FlowLayout.m */,
+				20702E5C1FECFB8000A5BB6A /* 脚部 */,
+				20702E5B1FECFB7600A5BB6A /* 头部 */,
 				20702E421FECEF5200A5BB6A /* Main.storyboard */,
 				20702E451FECEF5200A5BB6A /* Assets.xcassets */,
 				20702E471FECEF5200A5BB6A /* LaunchScreen.storyboard */,
@@ -69,6 +82,24 @@
 				20702E4B1FECEF5200A5BB6A /* main.m */,
 			);
 			path = WaterFlowLayout;
+			sourceTree = "<group>";
+		};
+		20702E5B1FECFB7600A5BB6A /* 头部 */ = {
+			isa = PBXGroup;
+			children = (
+				20702E551FECFB4A00A5BB6A /* HeaderView.h */,
+				20702E561FECFB4A00A5BB6A /* HeaderView.m */,
+			);
+			path = "头部";
+			sourceTree = "<group>";
+		};
+		20702E5C1FECFB8000A5BB6A /* 脚部 */ = {
+			isa = PBXGroup;
+			children = (
+				20702E581FECFB6D00A5BB6A /* FooterView.h */,
+				20702E591FECFB6D00A5BB6A /* FooterView.m */,
+			);
+			path = "脚部";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,7 +174,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				20702E411FECEF5200A5BB6A /* ViewController.m in Sources */,
+				20702E571FECFB4A00A5BB6A /* HeaderView.m in Sources */,
 				20702E4C1FECEF5200A5BB6A /* main.m in Sources */,
+				20702E5A1FECFB6D00A5BB6A /* FooterView.m in Sources */,
+				20702E541FECF0B100A5BB6A /* FlowLayout.m in Sources */,
 				20702E3E1FECEF5200A5BB6A /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
